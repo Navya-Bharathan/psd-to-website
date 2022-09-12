@@ -1,5 +1,135 @@
 body{
     margin:0;
     padding:0;
-    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#video-section{
+    background-color: rgba(240,205,199,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    margin: 5rem;
+    position: relative;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.player{
+    position: absolute;
+    top: 180px;
+    left: 280px;
+}
+
+.right h1{
+    font-size: 4rem;
+}
+
+.right p{
+    font-size: 1.2rem;
+}
+
+.right .social-media i{
+    padding: 2rem;
+}
+
+#form{
+    background-image: url("/images/get_in_touch_back.png");
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#form h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#contact-form ::placeholder{
+    padding-left: 1rem;
+    color: rgba(190,190,190,255);
+}
+
+#contact-form input, #contact-form textarea{
+    width: 40rem;
+    line-height: 2;
+    background-color: rgba(239,239,239,255);
+    border: 2px solid rgba(210,211,211,255);
+}
+
+#contact-form textarea{
+    margin-bottom: 2rem;
+}
+
+#contact-form button{
+    background-color: rgba(241,198,194,255);
+    border: none;
+font-size: 1.3rem;
+font-weight: 700;
+    width: 14rem;
+    height: 3rem;
+}
+
+footer{
+    background-color: rgba(68,78,90,255);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+padding: 2rem 2rem;
+}
+
+footer h2{
+    padding-bottom: 1rem;
+}
+
+footer p{
+    margin: 0.4rem 0;
+}
+
+footer p:last-child{
+    padding-top: 1rem;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+footer h4{
+    margin-bottom: 0.5rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+.image-copyright{
+    display: flex;
+    flex-direction: column;
+}
+
+footer img{
+    max-width: 50%;
+}
+
+footer i{
+    margin-top: 1rem;
+    padding: 0.5rem;
 }
